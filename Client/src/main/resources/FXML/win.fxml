@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400" prefWidth="450.0" styleClass="anchorPane" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WinController">
+    <children>
+        <Label contentDisplay="CENTER" layoutX="130.0" layoutY="150.0" styleClass="title" text="You Won!" />
+        <ImageView fx:id="h1" fitHeight="100.0" fitWidth="100.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" visible="true">
+            <image><Image url="@../images/p.png" /></image>
+        </ImageView>
+        <ImageView fx:id="h2" fitHeight="100.0" fitWidth="100.0" layoutX="250.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" visible="true">
+            <image><Image url="@../images/p2.png" /></image>
+        </ImageView>
+        <Button layoutX="50.0" layoutY="300.0" mnemonicParsing="false" styleClass="btns" onAction = "#endGame" text="Quit" />
+        <Button layoutX="250.0" layoutY="300.0" mnemonicParsing="false" styleClass="btns" onAction = "#nextRoundBtn" text="next Round" />
+        <Label fx:id="totalWonW" contentDisplay="CENTER" layoutX="100.0" layoutY="350.0" styleClass="title" text="" />
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<!-- Controller is set to the server controller -->
+<AnchorPane fx:id="serverGUI" prefHeight="600" prefWidth="800" styleClass="anchorPane" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServerController">
+    <!-- Server Control Screen -->
+    <VBox fx:id="serverScreen" layoutX="100.0" layoutY="80.0" spacing="15.0">
+        <!-- Client Information -->
+        <Label text="Server Game State" styleClass="title" />
+
+        <!-- Display the number of connected clients -->
+        <Label fx:id="clientsCountLabel" text="Connected Clients: 0" />
+
+        <!-- Display Game Results -->
+        <Label text="Server Status:" />
+        <ListView fx:id="gameResultsList" prefHeight="150" prefWidth="600" />
+
+        <!-- Client Status Log -->
+        <Label text="Game Status:" />
+        <ListView fx:id="clientStatusLog" prefHeight="150" prefWidth="600" />
+
+        <!-- Start and Stop Server Buttons -->
+        <HBox spacing="10">
+            <Button fx:id="startServerBtn" text="Start Server"
+                    onAction="#startServer" styleClass="startandexitbtn"/>
+            <Button fx:id="stopServerBtn" text="Stop Server"
+                    onAction="#stopServer" styleClass="startandexitbtn"/>
+        </HBox>
+    </VBox>
+</AnchorPane>

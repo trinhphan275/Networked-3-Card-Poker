@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300" prefWidth="350.0" styleClass="anchorPane" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientController">
+    <children>
+        <Label  contentDisplay="CENTER" layoutX="20.0" layoutY="70.0" styleClass="normalText" text="Are you sure you want to quit?" />
+        <Button layoutX="40.0" layoutY="130.0" mnemonicParsing="false" styleClass="btns" onAction = "#endGame" text="Quit" />
+        <Button layoutX="190.0" layoutY="130.0" mnemonicParsing="false" styleClass="btns" onAction = "#continueGame" text="Continue" />
+    </children>
+</AnchorPane>

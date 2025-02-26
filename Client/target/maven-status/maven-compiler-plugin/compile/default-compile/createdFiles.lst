@@ -1,0 +1,13 @@
+Dealer.class
+GameState.class
+ThreeCardLogic.class
+PokerInfo.class
+Card.class
+ClientController.class
+WinController.class
+Client$ClientThread.class
+Client.class
+Deck.class
+Player.class
+LoseController.class
+JavaFXTemplate.class
