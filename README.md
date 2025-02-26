@@ -1,5 +1,4 @@
 # Networked-3-Card-Poker
-# Networked 3 Card Poker
 
 ## Overview
 This project implements a networked version of the popular casino game 3 Card Poker using Java Sockets. The game consists of a server that manages game sessions and multiple clients that connect to it to play. Each client plays an independent game against the server. This project is developed using JavaFX and follows event-driven programming principles.
